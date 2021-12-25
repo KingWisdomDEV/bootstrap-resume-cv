@@ -14,3 +14,23 @@
 // Custom styles
 //
 @import "./typography";
+.avatar{
+    height: 25rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+.avatar-shadow-1{
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        width: 100%;
+        background-color: rgba(255, 61, 78, .9);
+        height: 90%;
+        position: absolute;
+        top: 20%;
+        z-index: -1;
+        border-radius: 2rem 0 0 2rem;
+    }
+}

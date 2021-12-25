@@ -14,23 +14,47 @@
 // Custom styles
 //
 @import "./typography";
+// Override button styles
+@import "./custom_buttons";
+.mb-large{
+    margin-bottom: 8rem;
+}
+
 .avatar{
-    height: 25rem;
-    width: 18rem;
     object-fit: cover;
     border-radius: .5rem;
 }
-.avatar-shadow-1{
+.avatar-1{
+    height: 25rem;
+    width: 18rem;
+}
+.avatar-2{
+    height: 20rem;
+    width: 16rem;
+}
+.avatar-shadow{
     position: relative;
     &::after{
         content: "";
         display: block;
-        width: 100%;
-        background-color: rgba(255, 61, 78, .9);
-        height: 90%;
+        background-color: rgba($primary, .9);
         position: absolute;
-        top: 20%;
         z-index: -1;
+    }
+}
+.avatar-shadow-1{
+    &::after{
+        width: 100%;
+        height: 90%;
+        top: 20%;
         border-radius: 2rem 0 0 2rem;
+    }
+}
+.avatar-shadow-2{
+    &::after{
+        width: calc(100% - 5rem);
+        height: 100%;
+        top: -2rem;
+        border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
     }
 }

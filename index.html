@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,26 @@
 
     <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row bg-danger">
+            <div class="col-4 col-md-6 bg-success">
+                Column
+            </div>
+            <div class="col-4 col-md-3 bg-primary">
+                Column
+            </div>
+            <div class="col-4 col-md-3 bg-info">
+                Column
+            </div>
+        </div>
+    </div>
+    <!-- Import Bootstrap's bundle (all of Bootstrap's JS + Popper.js dependency) -->
+
+    <script type="module">
+        import "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+    </script>
 </body>
+
 </html>

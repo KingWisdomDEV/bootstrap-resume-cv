@@ -41,6 +41,7 @@
     }
 }
 
+// Section INTRO + ABOUT US
 .avatar{
     object-fit: cover;
     border-radius: .5rem;
@@ -80,3 +81,11 @@
     }
 }
 
+// Section MY BEST SERVICES
+.service-box {
+    transition: all .2s;
+}
+.service-box:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+}

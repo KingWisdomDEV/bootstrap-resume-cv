@@ -54,6 +54,11 @@
 	height: 20rem;
 	width: 16rem;
 }
+.avatar-3 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: .25rem;
+}
 .avatar-shadow {
 	position: relative;
 	&::after {
@@ -78,6 +83,14 @@
 		height: 100%;
 		top: -2rem;
 		border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
+	}
+}
+.avatar-shadow-3 {
+	&::after {
+        width: 3.5rem;
+        height: 4.5rem;
+        top: -0.5rem;
+        left: -0.5rem;
 	}
 }
 

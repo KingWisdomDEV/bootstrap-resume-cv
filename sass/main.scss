@@ -1,6 +1,6 @@
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
-// 
+//
 
 @import "./custom_variables";
 
@@ -8,7 +8,6 @@
 // Import all of Bootstrap's CSS
 //
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 
 //
 // Custom styles
@@ -18,74 +17,87 @@
 @import "./custom_buttons";
 
 // Reuseable styles
-.mb-large{
-    margin-bottom: 8rem;
+.mb-large {
+	margin-bottom: 8rem;
 }
-.py-big{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.py-big {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
-.limit-1-lines{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1; /* number of lines to show */
-    line-clamp: 1; 
-    -webkit-box-orient: vertical;
+.limit-1-lines {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; /* number of lines to show */
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
 }
-.scale-small{
-    transition: all .5s;
-    cursor: pointer;
-    &:hover, &:focus{
-        transform: scale(1.1);
-    }
+.scale-small {
+	transition: all 0.5s;
+	cursor: pointer;
+	&:hover,
+	&:focus {
+		transform: scale(1.1);
+	}
 }
 
 // Section INTRO + ABOUT US
-.avatar{
-    object-fit: cover;
-    border-radius: .5rem;
+.avatar {
+	object-fit: cover;
+	border-radius: 0.5rem;
 }
-.avatar-1{
-    height: 25rem;
-    width: 18rem;
+.avatar-1 {
+	height: 25rem;
+	width: 18rem;
 }
-.avatar-2{
-    height: 20rem;
-    width: 16rem;
+.avatar-2 {
+	height: 20rem;
+	width: 16rem;
 }
-.avatar-shadow{
-    position: relative;
-    &::after{
-        content: "";
-        display: block;
-        background-color: rgba($primary, .9);
-        position: absolute;
-        z-index: -1;
-    }
+.avatar-shadow {
+	position: relative;
+	&::after {
+		content: "";
+		display: block;
+		background-color: rgba($primary, 0.9);
+		position: absolute;
+		z-index: -1;
+	}
 }
-.avatar-shadow-1{
-    &::after{
-        width: 100%;
-        height: 90%;
-        top: 20%;
-        border-radius: 2rem 0 0 2rem;
-    }
+.avatar-shadow-1 {
+	&::after {
+		width: 100%;
+		height: 90%;
+		top: 20%;
+		border-radius: 2rem 0 0 2rem;
+	}
 }
-.avatar-shadow-2{
-    &::after{
-        width: calc(100% - 5rem);
-        height: 100%;
-        top: -2rem;
-        border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
-    }
+.avatar-shadow-2 {
+	&::after {
+		width: calc(100% - 5rem);
+		height: 100%;
+		top: -2rem;
+		border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
+	}
 }
 
 // Section MY BEST SERVICES
 .service-box {
-    transition: all .2s;
+	transition: all 0.2s;
 }
 .service-box:hover {
-    cursor: pointer;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+	cursor: pointer;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+// Section SUMMARY
+#section-summary {
+	background-image: linear-gradient(
+			to right,
+			rgba($primary, 0.6),
+			rgba($primary, 0.8)
+		),
+		url("../img/summ.jpg");
+	background-size: cover;
+	background-position-y: top;
 }

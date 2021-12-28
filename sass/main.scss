@@ -60,6 +60,22 @@
 	scroll-margin-top: 5rem;
 }
 
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+#main-navbar{
+	transition: all .2s;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 9999;
+    box-shadow: 0 .5rem .5rem rgba($black, 0.15);
+}
+.sticky + main {
+	padding-top: 3rem;
+}
+
 // Section INTRO + ABOUT US
 .avatar {
 	object-fit: cover;

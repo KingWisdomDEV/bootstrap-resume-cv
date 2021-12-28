@@ -52,6 +52,14 @@
 	}
 }
 
+// Scrollable when click links
+#section-intro{
+	scroll-margin-top: 30rem;
+}
+#section-about, #section-porfolio, #section-blog {
+	scroll-margin-top: 5rem;
+}
+
 // Section INTRO + ABOUT US
 .avatar {
 	object-fit: cover;

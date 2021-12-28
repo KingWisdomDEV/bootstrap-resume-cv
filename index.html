@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="navbar-light mb-5"> 
+    <header class="navbar-light fixed-top bg-white"> 
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid container-lg">
                 <a class="navbar-brand fw-bolder text-black" href="#">
@@ -30,22 +30,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav d-flex justify-content-center fw-bold text-uppercase ms-auto me-0 me-lg-4">
                         <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="#"><small>Home</small></a>
+                            <a class="nav-link active" aria-current="page" href="#section-intro"><small>Home</small></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><small>About</small></a>
+                            <a class="nav-link" href="#section-about"><small>About</small></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><small>Portfolio</small></a>
+                            <a class="nav-link" href="#section-porfolio"><small>Portfolio</small></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><small>Blog</small></a>
+                            <a class="nav-link" href="#section-blog"><small>Blog</small></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><small>Services</small></a>
+                            <a class="nav-link" href="#section-service"><small>Services</small></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><small>Contact</small></a>
+                            <a class="nav-link" href="#section-contact"><small>Contact</small></a>
                         </li>
                     </ul>
                     <div class="d-none d-lg-flex">
@@ -57,7 +57,7 @@
                               <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                              <a class="nav-link"  target="_blank" href="https://www.linkedin.com/in/king-wisdom/"><i class="fab fa-linkedin-in"></i></a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link text-primary" href="#"><i class="fab fa-instagram"></i></a>
@@ -70,7 +70,7 @@
     </header>
     <main>
         <!-- SECTION INTRO -->
-        <section id="section-intro" class="container-fluid container-lg mb-large">
+        <section id="section-intro" class="container-fluid container-lg mb-large mt-big">
             <div class="row align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-5 text-center text-md-start">
                     <h3 class="text-uppercase fw-bold fs-6 text-secondary mt-5 mt-md-0">Hello, My name is</h3>
@@ -78,10 +78,10 @@
                     <small class="mb-5 d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo fugit eum provident at asperiores ullam facere vel odio similique tenetur exercitationem illum quis, repudiandae mollitia assumenda possimus magnam? Eum ipsum harum necessitatibus obcaecati odit saepe vel. </small>
                     <div class="row gap-2 gap-lg-0 justify-content-center justify-content-md-start">
                         <div class="col-5 col-lg-4">
-                            <a href="#" class="btn btn-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>My Work</small></a>
+                            <a href="#section-porfolio" class="btn btn-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>My Work</small></a>
                         </div>
                         <div class="col-5 col-lg-4">
-                            <a href="#" class="btn btn-outline-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>Hire Me</small></a>
+                            <a href="#section-contact" class="btn btn-outline-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>Hire Me</small></a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
         </section>
 
         <!-- SECTION ABOUT ME -->
-        <section class="container-fluid container-lg mb-5">
+        <section id="section-about" class="container-fluid container-lg mb-5">
             <div class="text-center text-md-start">
                 <h2 class="d-inline-block text-uppercase fw-bold mb-4 border-bottom border-primary border-2">About me</h2>
                 <h4 class="text-uppercase fw-bold fs-6 text-secondary mb-5"><small>A final-year student at FPT University</small></h4>
@@ -115,7 +115,7 @@
                             <a href="#" class="btn btn-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>Download CV</small></a>
                         </div>
                         <div class="col-5 col-lg-4">
-                            <a href="#" class="btn btn-outline-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>About More</small></a>
+                            <a href="#section-skill" class="btn btn-outline-primary text-uppercase fw-bold py-2 py-lg-3 w-100"><small>About More</small></a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
         </section>
 
         <!-- SECTION LASTEST PORFOLIO -->
-        <section class="container-fluid container-lg mb-5">
+        <section id="section-porfolio" class="container-fluid container-lg mb-5">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -221,7 +221,7 @@
         </section>
 
         <!-- SECTION MY SKILLS -->
-        <section class="bg-secondary bg-opacity-10">
+        <section id="section-skill" class="bg-secondary bg-opacity-10">
             <div class="container-fluid container-lg py-big">
                 <div class="row mb-4">
                     <div class="col-md-5">
@@ -291,7 +291,7 @@
         </section>
 
         <!-- SECTION MY BEST SERVICES -->
-        <section class="container-fluid container-lg py-big">
+        <section id="section-service" class="container-fluid container-lg py-big">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -371,7 +371,7 @@
         </section>
 
         <!-- SECTION OUR CLIENT FEEDBACK -->
-        <section class="container-fluid container-lg py-big">
+        <section id="section-feedback" class="container-fluid container-lg py-big">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -452,7 +452,7 @@
 
         <!-- SECTION LASTEST UPDATE -->
         <!-- TODO: Do slide show for all cards -->
-        <section class="container-fluid container-lg">
+        <section id="section-blog" class="container-fluid container-lg">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -518,7 +518,7 @@
         </section>
 
         <!-- SECTION GET IN TOUCH -->
-        <section class="container-fluid container-lg py-big">
+        <section id="section-contact" class="container-fluid container-lg py-big">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -561,7 +561,7 @@
                         </div>
                     </div>
                     <textarea class="form-control form-control-lg border-0 border-bottom border-3 ps-0 mb-5" placeholder="Enter Message" aria-label="Enter Message" rows="5"></textarea>
-                    <button class="btn btn-primary  text-uppercase fw-bold py-2 px-4 py-lg-3"><small>Send Now</small></button>
+                    <button  type="submit" class="btn btn-primary text-uppercase text-white fw-bold py-2 px-4 py-lg-3"><small>Send Now</small></button>
                 </div>
             </div>
         </section>
@@ -580,19 +580,19 @@
                     <div class="col-10 col-md-5 col-lg-3 mb-3">
                         <h5 class="fw-bolder mb-3 mb-lg-5">Quick Links</h5>
                         <ul class="d-flex flex-column ps-0 nav">
-                            <li><a href="" class="nav-link ps-0 d-inline-block">About Me</a></li>
-                            <li><a href="" class="nav-link ps-0 d-inline-block">Portfolio</a></li>
-                            <li><a href="" class="nav-link ps-0 d-inline-block">Customers</a></li>
-                            <li><a href="" class="nav-link ps-0 d-inline-block">Blog</a></li>
+                            <li><a href="#section-about" class="nav-link ps-0 d-inline-block">About Me</a></li>
+                            <li><a href="#section-porfolio" class="nav-link ps-0 d-inline-block">Portfolio</a></li>
+                            <li><a href="#section-feedback" class="nav-link ps-0 d-inline-block">Customers</a></li>
+                            <li><a href="#section-blog" class="nav-link ps-0 d-inline-block">Blog</a></li>
                         </ul>
                     </div>
                     <div class="col-10 col-md-5 col-lg-3 mb-3">
                         <h5 class="fw-bolder mb-3 mb-lg-5">Support Links</h5>
                         <ul class="d-flex flex-column ps-0 nav">
-                            <li><a href="" class="nav-link ps-0 d-inline-block">Privacy Policy</a></li>
+                            <li><a href="#" class="nav-link ps-0 d-inline-block">Privacy Policy</a></li>
                             <li><a href="" class="nav-link ps-0 d-inline-block">Testimonials</a></li>
                             <li><a href="" class="nav-link ps-0 d-inline-block">Contact Manager</a></li>
-                            <li><a href="" class="nav-link ps-0 d-inline-block">Call Now</a></li>
+                            <li><a href="tel:+84337220922" class="nav-link ps-0 d-inline-block">Call Now</a></li>
                         </ul>
                     </div>
                     <div class="col-10 col-md-5 col-lg-3">

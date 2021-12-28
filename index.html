@@ -71,9 +71,9 @@
     <main>
         <!-- SECTION INTRO -->
         <section id="section-intro" class="container-fluid container-lg mb-large">
-            <div class="row align-items-center">
-                <div class="col-md-5 text-center text-md-start mb-5">
-                    <h3 class="text-uppercase fw-bold fs-6 text-secondary">Hello, My name is</h3>
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-5 text-center text-md-start">
+                    <h3 class="text-uppercase fw-bold fs-6 text-secondary mt-5 mt-md-0">Hello, My name is</h3>
                     <h1 class="text-uppercase fw-bold mb-4">King Wisdom</h1>
                     <small class="mb-5 d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo fugit eum provident at asperiores ullam facere vel odio similique tenetur exercitationem illum quis, repudiandae mollitia assumenda possimus magnam? Eum ipsum harum necessitatibus obcaecati odit saepe vel. </small>
                     <div class="row gap-2 gap-lg-0 justify-content-center justify-content-md-start">
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8 col-md-7 mx-auto">
+                <div class="col-8 col-md-7 mx-auto mb-5">
                     <div class="avatar-shadow avatar-shadow-1">
                         <img class="ms-5 img-fluid avatar avatar-1" src="./img/avatar1.jpg" alt="King Wisdom">
                     </div>
@@ -100,7 +100,7 @@
                 <h4 class="text-uppercase fw-bold fs-6 text-secondary mb-5"><small>A final-year student at FPT University</small></h4>
             </div>
             <div class="row">
-                <div class="col-8 col-md-5 mx-auto text-end mt-4 mb-3">
+                <div class="col-8 col-md-5 mx-auto text-end mt-4 mb-">
                     <div class="avatar-shadow avatar-shadow-2 pe-3">
                         <img class="ms-5 img-fluid avatar avatar-2 border border-primary" src="./img/avatar2.jpg" alt="King Wisdom">
                     </div>
@@ -452,7 +452,7 @@
 
         <!-- SECTION LASTEST UPDATE -->
         <!-- TODO: Do slide show for all cards -->
-        <section class="container-fluid container-lg py-big">
+        <section class="container-fluid container-lg">
             <div class="row mb-4">
                 <div class="col-md-5">
                     <div class="text-center text-md-start">
@@ -513,6 +513,55 @@
                         </a>                
                         <p class="card-text limit-2-lines px-3"><small>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION GET IN TOUCH -->
+        <section class="container-fluid container-lg py-big">
+            <div class="row mb-4">
+                <div class="col-md-5">
+                    <div class="text-center text-md-start">
+                        <h2 class="d-inline-block text-uppercase fw-bold mb-4 border-bottom border-primary border-2">Get In Touch</h2>
+                        <h6 class="text-secondary fw-normal"><small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem necessitatibus facere sed laborum fugit quidem.</small></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-10 col-lg-5 mt-5 mt-lg-0 text-center text-lg-start">
+                    <div class="mb-3">
+                        <a href="tel:+84337220922" class="nav-link fw-bold fs-5 d-inline-block"><i class="fas fa-phone-alt text-primary fs-4"></i>  (+84)-33-722-0922</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="mailto:kingwisdom.dev@gmail.com" class="nav-link fw-bold fs-5 d-inline-block"><i class="fas fa-envelope text-primary fs-4"></i>  kingwisdom.dev@gmail.com</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://goo.gl/maps/BmMGEAh4J1XoHqRy6" target="_blank" class="nav-link fw-bold fs-5 d-inline-block"><i class="fas fa-map-marker-alt text-primary fs-4"></i>  Thach That, Ha Noi</a>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-7 shadow py-5 px-4 rounded-3 mt-3">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <input class="form-control form-control-lg border-0 border-bottom border-3 ps-0" type="text" 
+                            placeholder="Your Name" aria-label="Your Name">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <input class="form-control form-control-lg border-0 border-bottom border-3 ps-0" type="email" 
+                            placeholder="Email Address" aria-label="Email Address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <input class="form-control form-control-lg border-0 border-bottom border-3 ps-0" type="text" 
+                            placeholder="Type Of Work" aria-label="Type Of Work">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <input class="form-control form-control-lg border-0 border-bottom border-3 ps-0" type="text" 
+                            placeholder="Your Budget" aria-label="Your Budget">
+                        </div>
+                    </div>
+                    <textarea class="form-control form-control-lg border-0 border-bottom border-3 ps-0 mb-5" placeholder="Enter Message" aria-label="Enter Message" rows="5"></textarea>
+                    <button class="btn btn-primary  text-uppercase fw-bold py-2 px-4 py-lg-3"><small>Send Now</small></button>
                 </div>
             </div>
         </section>
